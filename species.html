@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore our comprehensive gallery of bird species from around the world with detailed information and stunning visuals.">
+    <title>Species Gallery - Wings of Wonder</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-feather"></i> Wings of Wonder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="species.html">Species Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="watching.html">Watching Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conservation.html">Conservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero-section" style="min-height: 50vh;">
+        <div class="hero-content">
+            <h1 class="hero-title">Species Gallery</h1>
+            <p class="hero-subtitle">Discover the Incredible Diversity of Birds</p>
+        </div>
+    </section>
+
+    <!-- Species Gallery -->
+    <section class="section">
+        <div class="container">
+            <!-- Tropical Birds -->
+            <h2 class="section-title">Tropical Birds</h2>
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="birds/scarlet-macaw.jpg" class="card-img-top" alt="Scarlet Macaw">
+                        <div class="card-body">
+                            <h5 class="card-title">Scarlet Macaw</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Ara macao</p>
+                            <p class="card-text">A large, colorful parrot native to Central and South America. Known for
+                                vibrant red, yellow, and blue plumage.</p>
+                            <span class="badge bg-success">Conservation: Least Concern</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="birds/indian-peafowl.jpg" class="card-img-top" alt="Indian Peafowl">
+                        <div class="card-body">
+                            <h5 class="card-title">Indian Peafowl</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Pavo cristatus</p>
+                            <p class="card-text">Famous for the male's spectacular iridescent tail feathers used in
+                                courtship displays.</p>
+                            <span class="badge bg-success">Conservation: Least Concern</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="birds/greater-flamingo.jpg" class="card-img-top" alt="Greater Flamingo">
+                        <div class="card-body">
+                            <h5 class="card-title">Greater Flamingo</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Phoenicopterus roseus</p>
+                            <p class="card-text">The most widespread flamingo species, known for pink plumage from
+                                carotenoid-rich diet.</p>
+                            <span class="badge bg-success">Conservation: Least Concern</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Birds of Prey -->
+            <h2 class="section-title">Birds of Prey</h2>
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="birds/bald-eagle.jpg" class="card-img-top" alt="Bald Eagle">
+                        <div class="card-body">
+                            <h5 class="card-title">Bald Eagle</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Haliaeetus leucocephalus</p>
+                            <p class="card-text">The national bird of the United States, known for its white head and
+                                impressive wingspan up to 7.5 feet.</p>
+                            <span class="badge bg-success">Conservation: Least Concern</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="birds/barn-owl.jpg" class="card-img-top" alt="Barn Owl">
+                        <div class="card-body">
+                            <h5 class="card-title">Barn Owl</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Tyto alba</p>
+                            <p class="card-text">Recognized by its heart-shaped face. A silent nocturnal hunter found on
+                                every continent except Antarctica.</p>
+                            <span class="badge bg-success">Conservation: Least Concern</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="birds/peregrine-falcon.jpg" class="card-img-top" alt="Peregrine Falcon">
+                        <div class="card-body">
+                            <h5 class="card-title">Peregrine Falcon</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Falco peregrinus</p>
+                            <p class="card-text">The fastest animal on Earth, reaching speeds over 240 mph during
+                                hunting dives.</p>
+                            <span class="badge bg-success">Conservation: Least Concern</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Songbirds -->
+            <h2 class="section-title">Songbirds</h2>
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="birds/american-robin.jpg" class="card-img-top" alt="American Robin">
+                        <div class="card-body">
+                            <h5 class="card-title">American Robin</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Turdus migratorius</p>
+                            <p class="card-text">A common sight across North America, known for its orange breast and
+                                melodious song.</p>
+                            <span class="badge bg-success">Conservation: Least Concern</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="birds/northern-cardinal.jpg" class="card-img-top" alt="Northern Cardinal">
+                        <div class="card-body">
+                            <h5 class="card-title">Northern Cardinal</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Cardinalis cardinalis</p>
+                            <p class="card-text">Brilliant red males are easily recognized. Both sexes sing complex
+                                songs year-round.</p>
+                            <span class="badge bg-success">Conservation: Least Concern</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="birds/blue-jay.jpg" class="card-img-top" alt="Blue Jay">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Jay</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Cyanocitta cristata</p>
+                            <p class="card-text">Intelligent and adaptable, known for its loud calls and striking blue
+                                plumage with white and black markings.</p>
+                            <span class="badge bg-success">Conservation: Least Concern</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Endangered Species -->
+            <h2 class="section-title">Endangered Species</h2>
+            <div class="alert alert-warning" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> <strong>Conservation Alert:</strong> These species
+                require our immediate attention and protection efforts.
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-warning">
+                        <img src="birds/spix's-macaw.jpg" class="card-img-top" alt="Spix's Macaw">
+                        <div class="card-body">
+                            <h5 class="card-title">Spix's Macaw</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Cyanopsitta spixii</p>
+                            <p class="card-text">Extinct in the wild since 2000. Conservation breeding programs are
+                                working to reintroduce this species.</p>
+                            <span class="badge bg-danger">Conservation: Critically Endangered</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-warning">
+                        <img src="birds/philippine-eagle.jpg" class="card-img-top" alt="Philippine Eagle">
+                        <div class="card-body">
+                            <h5 class="card-title">Philippine Eagle</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Pithecophaga jefferyi</p>
+                            <p class="card-text">One of the world's largest and most powerful eagles. Only 400 pairs
+                                remain in the wild.</p>
+                            <span class="badge bg-danger">Conservation: Critically Endangered</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-warning">
+                        <img src="birds/Kākāpō.jpg" class="card-img-top" alt="Kākāpō">
+                        <div class="card-body">
+                            <h5 class="card-title">Kākāpō</h5>
+                            <p class="card-text"><strong>Scientific Name:</strong> Strigops habroptilus</p>
+                            <p class="card-text">A flightless nocturnal parrot from New Zealand. Intensive conservation
+                                has saved this unique species.</p>
+                            <span class="badge bg-danger">Conservation: Critically Endangered</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-gradient">Wings of Wonder</h5>
+                    <p class="text-light">Your gateway to the magnificent world of birds. Learn, explore, and contribute
+                        to bird conservation.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="species.html">Species Gallery</a></li>
+                        <li><a href="watching.html">Watching Guide</a></li>
+                        <li><a href="conservation.html">Conservation</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Connect With Us</h5>
+                    <div class="d-flex gap-3 fs-4">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center py-3">
+                <p class="mb-0">&copy; 2025 Wings of Wonder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Theme Toggle JS -->
+    <script src="theme-toggle.js"></script>
+</body>
+
+</html>

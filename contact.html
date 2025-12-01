@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Wings of Wonder to learn more about birds, conservation efforts, or share your birding experiences with our community.">
+    <title>Contact Us - Wings of Wonder</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-feather"></i> Wings of Wonder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="species.html">Species Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="watching.html">Watching Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conservation.html">Conservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero-section" style="min-height: 50vh;">
+        <div class="hero-content">
+            <h1 class="hero-title">Get In Touch</h1>
+            <p class="hero-subtitle">We'd Love to Hear From You</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Information -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h2 class="text-gradient mb-4">Contact Information</h2>
+                    <p class="text-light mb-4">Have questions, sightings to report, or want to get involved? We're here
+                        to help!</p>
+
+                    <div class="mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-geo-alt-fill text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">Address</h6>
+                                <p class="text-light mb-0">123 Birding Lane<br>Nature Valley, NV 12345<br>United States
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-envelope-fill text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">Email</h6>
+                                <p class="text-light mb-0">info@wingsofwonder.org</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-telephone-fill text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">Phone</h6>
+                                <p class="text-light mb-0">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start">
+                            <i class="bi bi-clock-fill text-primary fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">Office Hours</h6>
+                                <p class="text-light mb-0">Monday - Friday<br>9:00 AM - 5:00 PM EST</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <h6 class="mb-3">Follow Us</h6>
+                            <div class="d-flex gap-3 fs-3">
+                                <a href="#" class="text-primary"><i class="bi bi-facebook"></i></a>
+                                <a href="#" class="text-info"><i class="bi bi-twitter"></i></a>
+                                <a href="#" class="text-danger"><i class="bi bi-instagram"></i></a>
+                                <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <h2 class="mb-4">Send Us a Message</h2>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label">Subject *</label>
+                                    <select class="form-select" id="subject" required>
+                                        <option value="">Choose a topic...</option>
+                                        <option value="general">General Inquiry</option>
+                                        <option value="species">Bird Species Question</option>
+                                        <option value="sighting">Report a Sighting</option>
+                                        <option value="conservation">Conservation Programs</option>
+                                        <option value="volunteer">Volunteer Opportunities</option>
+                                        <option value="partnership">Partnership Inquiry</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" rows="6" required
+                                        placeholder="Tell us more about your inquiry..."></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="newsletter">
+                                        <label class="form-check-label" for="newsletter">
+                                            Subscribe to our newsletter for bird watching tips and conservation updates
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="bi bi-send"></i> Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-question-circle text-primary"></i> How can I identify
+                                a bird I saw?</h5>
+                            <p class="card-text">Check out our <a href="species.html">Species Gallery</a> or use our
+                                identification resources. You can also send us a description or photo through this
+                                contact form.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-question-circle text-primary"></i> How can I help
+                                with conservation?</h5>
+                            <p class="card-text">Visit our <a href="conservation.html">Conservation</a> page to learn
+                                about volunteer opportunities, donation options, and simple actions you can take at
+                                home.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-question-circle text-primary"></i> Do you organize
+                                bird watching tours?</h5>
+                            <p class="card-text">We partner with local organizations for guided bird watching
+                                experiences. Contact us for information about upcoming events and tours in your area.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-question-circle text-primary"></i> Can I submit my
+                                bird photos?</h5>
+                            <p class="card-text">Yes! We love seeing photos from our community. Send them via this
+                                contact form or tag us on social media using #WingsOfWonder.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section">
+        <div class="container">
+            <div class="card border-0 shadow-lg bg-gradient-3 text-white">
+                <div class="card-body p-5 text-center">
+                    <i class="bi bi-envelope-heart" style="font-size: 4rem; margin-bottom: 1rem;"></i>
+                    <h3 class="mb-3">Join Our Community</h3>
+                    <p class="lead mb-4">Stay connected with fellow bird enthusiasts and receive exclusive content,
+                        event invitations, and conservation updates.</p>
+                    <button class="btn btn-light btn-lg">
+                        <i class="bi bi-bell"></i> Subscribe to Newsletter
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-gradient">Wings of Wonder</h5>
+                    <p class="text-light">Your gateway to the magnificent world of birds. Learn, explore, and contribute
+                        to bird conservation.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="species.html">Species Gallery</a></li>
+                        <li><a href="watching.html">Watching Guide</a></li>
+                        <li><a href="conservation.html">Conservation</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Connect With Us</h5>
+                    <div class="d-flex gap-3 fs-4">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center py-3">
+                <p class="mb-0">&copy; 2025 Wings of Wonder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Theme Toggle JS -->
+    <script src="theme-toggle.js"></script>
+
+    <!-- Form Submission Handler -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Show success message
+            alert('Thank you for your message! We will get back to you soon.');
+
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Learn expert bird watching tips, techniques, and equipment recommendations for an amazing birding experience.">
+    <title>Bird Watching Guide - Wings of Wonder</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-feather"></i> Wings of Wonder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="species.html">Species Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="watching.html">Watching Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conservation.html">Conservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="hero-section" style="min-height: 50vh;">
+        <div class="hero-content">
+            <h1 class="hero-title">Bird Watching Guide</h1>
+            <p class="hero-subtitle">Master the Art of Birding</p>
+        </div>
+    </section>
+
+    <!-- Getting Started -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Getting Started</h2>
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <div class="img-placeholder"
+                        style="height: 350px; border-radius: 20px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <i class="bi bi-binoculars" style="font-size: 5rem; color: white;"></i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Your Birding Journey Begins</h3>
+                    <p class="lead">Bird watching is one of the most rewarding outdoor activities, combining nature
+                        observation, science, and peaceful recreation.</p>
+                    <p class="text-light">Whether you're watching from your backyard or exploring remote wilderness,
+                        birding offers endless opportunities for discovery. No special skills are required—just
+                        patience, curiosity, and a love for nature.</p>
+                </div>
+            </div>
+
+            <!-- Essential Equipment -->
+            <h2 class="section-title mt-5">Essential Equipment</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-binoculars" style="font-size: 3rem; color: #667eea;"></i>
+                            <h5 class="card-title mt-3">Binoculars</h5>
+                            <p class="card-text">A good pair of binoculars (8x42 or 10x42) is essential. Look for sharp
+                                optics, comfortable grip, and weather resistance.</p>
+                            <div class="alert alert-info mt-3">
+                                <strong>Recommended:</strong> 8x42 for beginners
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-book" style="font-size: 3rem; color: #667eea;"></i>
+                            <h5 class="card-title mt-3">Field Guide</h5>
+                            <p class="card-text">A comprehensive field guide helps identify species by appearance,
+                                habitat, and behavior. Consider regional guides for accuracy.</p>
+                            <div class="alert alert-info mt-3">
+                                <strong>Tip:</strong> Digital apps work great too!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-journal-text" style="font-size: 3rem; color: #667eea;"></i>
+                            <h5 class="card-title mt-3">Notebook</h5>
+                            <p class="card-text">Record your observations, sketches, and notes. Track dates, locations,
+                                behaviors, and weather conditions.</p>
+                            <div class="alert alert-info mt-3">
+                                <strong>Pro Tip:</strong> Include sketches!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Practices -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Best Practices</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="bi bi-sunrise text-warning"></i> Best Times to Watch
+                            </h5>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Early
+                                        Morning:</strong> Birds are most active at dawn</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Late
+                                        Afternoon:</strong> Another peak activity period</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Migration
+                                        Seasons:</strong> Spring and fall offer diverse species</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>After
+                                        Rain:</strong> Birds are more visible and active</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="bi bi-geo-alt text-danger"></i> Prime Locations
+                            </h5>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i>
+                                    <strong>Wetlands:</strong> Waterfowl and wading birds
+                                </li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i>
+                                    <strong>Forests:</strong> Woodpeckers and songbirds
+                                </li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i>
+                                    <strong>Grasslands:</strong> Raptors and ground birds
+                                </li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> <strong>Coastal
+                                        Areas:</strong> Seabirds and shorebirds</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Birding Ethics -->
+            <div class="alert alert-warning mt-5" role="alert">
+                <h5><i class="bi bi-shield-check"></i> Birding Code of Ethics</h5>
+                <ul class="mb-0">
+                    <li>Never disturb birds at nests or roosting sites</li>
+                    <li>Keep a respectful distance—use binoculars and telephoto lenses</li>
+                    <li>Stay on designated trails to protect habitat</li>
+                    <li>Never use recordings to attract endangered species</li>
+                    <li>Report rare sightings to local birding organizations</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Identification Tips -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Identification Tips</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="bi bi-eye"></i></div>
+                        <h5>Shape & Size</h5>
+                        <p class="text-light">Note overall body shape, bill size, tail length, and wing shape.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="bi bi-palette"></i></div>
+                        <h5>Colors & Markings</h5>
+                        <p class="text-light">Observe plumage colors, patterns, wing bars, and eye rings.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="bi bi-music-note"></i></div>
+                        <h5>Songs & Calls</h5>
+                        <p class="text-light">Listen carefully—many birds are easier to identify by sound.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="bi bi-shuffle"></i></div>
+                        <h5>Behavior</h5>
+                        <p class="text-light">Watch feeding habits, flight patterns, and social interactions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Common Mistakes -->
+            <div class="card mt-5 border-0 shadow">
+                <div class="card-body p-4">
+                    <h3 class="mb-4"><i class="bi bi-exclamation-triangle text-warning"></i> Common Beginner Mistakes
+                    </h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="text-danger">❌ Avoid These:</h5>
+                            <ul>
+                                <li>Moving too quickly through habitats</li>
+                                <li>Wearing bright or noisy clothing</li>
+                                <li>Looking only at eye level</li>
+                                <li>Giving up too quickly on identification</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-success">✅ Do This Instead:</h5>
+                            <ul>
+                                <li>Move slowly and pause frequently</li>
+                                <li>Wear neutral earth tones</li>
+                                <li>Scan all levels from ground to canopy</li>
+                                <li>Take detailed notes for later research</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seasonal Guide -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Seasonal Bird Watching</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-flower1" style="font-size: 3rem; color: #f093fb;"></i>
+                            <h5 class="card-title mt-3">Spring</h5>
+                            <p class="card-text">Migration season! Warblers, thrushes, and other migrants return. Males
+                                display vibrant breeding plumage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-sun" style="font-size: 3rem; color: #feca57;"></i>
+                            <h5 class="card-title mt-3">Summer</h5>
+                            <p class="card-text">Nesting season brings activity. Watch for adults feeding young and
+                                teaching fledglings to fly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-tree" style="font-size: 3rem; color: #ff6348;"></i>
+                            <h5 class="card-title mt-3">Fall</h5>
+                            <p class="card-text">Another migration peak! Raptors migrate in large numbers. Juveniles in
+                                different plumage add variety.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-snow" style="font-size: 3rem; color: #4facfe;"></i>
+                            <h5 class="card-title mt-3">Winter</h5>
+                            <p class="card-text">Hardy species and northern visitors. Waterfowl gathering, winter
+                                finches, and better visibility through bare trees.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-gradient">Wings of Wonder</h5>
+                    <p class="text-light">Your gateway to the magnificent world of birds. Learn, explore, and contribute
+                        to bird conservation.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="species.html">Species Gallery</a></li>
+                        <li><a href="watching.html">Watching Guide</a></li>
+                        <li><a href="conservation.html">Conservation</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Connect With Us</h5>
+                    <div class="d-flex gap-3 fs-4">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center py-3">
+                <p class="mb-0">&copy; 2025 Wings of Wonder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Theme Toggle JS -->
+    <script src="theme-toggle.js"></script>
+</body>
+
+</html>

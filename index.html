@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover the fascinating world of birds with our comprehensive guide to species, watching tips, and conservation efforts.">
+    <title>Wings of Wonder - Explore the World of Birds</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-feather"></i> Wings of Wonder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="species.html">Species Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="watching.html">Watching Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conservation.html">Conservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Wings of Wonder</h1>
+            <p class="hero-subtitle">Discover the Beauty and Diversity of Birds Around the World</p>
+            <a href="species.html" class="btn btn-hero">Explore Species</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Why Birds Matter</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <h3>Ecosystem Balance</h3>
+                        <p class="text-light">Birds play crucial roles in pollination, seed dispersal, and pest control,
+                            maintaining healthy ecosystems worldwide.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <h3>Biodiversity Indicators</h3>
+                        <p class="text-light">Bird populations serve as vital indicators of environmental health and
+                            climate change effects on our planet.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <h3>Natural Beauty</h3>
+                        <p class="text-light">From vibrant plumage to melodious songs, birds bring color, sound, and
+                            wonder to our daily lives.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h2 class="text-gradient">Over 10,000 Species</h2>
+                    <p class="lead">Birds inhabit every continent and ecosystem on Earth, from the frozen Arctic to
+                        tropical rainforests.</p>
+                    <p class="text-light">With incredible adaptations ranging from the hummingbird's hovering flight to
+                        the penguin's underwater prowess, birds showcase nature's endless creativity. Their ability to
+                        migrate thousands of miles, communicate through complex songs, and build intricate nests
+                        demonstrates remarkable intelligence and survival strategies.</p>
+                    <a href="species.html" class="btn btn-primary mt-3">
+                        <i class="bi bi-arrow-right-circle"></i> Discover Species
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?w=800&q=80"
+                        alt="Colorful birds in flight"
+                        style="height: 400px; width: 100%; object-fit: cover; border-radius: 20px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Explore More</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&q=80"
+                            alt="Various bird species" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Species Gallery</h5>
+                            <p class="card-text">Browse our comprehensive collection of bird species from around the
+                                world with detailed information.</p>
+                            <a href="species.html" class="btn btn-primary">View Gallery</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?w=800&q=80"
+                            alt="Bird watching" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Watching Guide</h5>
+                            <p class="card-text">Learn expert tips and techniques for bird watching, from equipment to
+                                best practices.</p>
+                            <a href="watching.html" class="btn btn-primary">Start Watching</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1568454537842-d933259bb258?w=800&q=80"
+                            alt="Eagle conservation" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Conservation</h5>
+                            <p class="card-text">Discover how you can help protect endangered species and preserve bird
+                                habitats.</p>
+                            <a href="conservation.html" class="btn btn-primary">Get Involved</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-gradient">Wings of Wonder</h5>
+                    <p class="text-light">Your gateway to the magnificent world of birds. Learn, explore, and contribute
+                        to bird conservation.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="species.html">Species Gallery</a></li>
+                        <li><a href="watching.html">Watching Guide</a></li>
+                        <li><a href="conservation.html">Conservation</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Connect With Us</h5>
+                    <div class="d-flex gap-3 fs-4">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center py-3">
+                <p class="mb-0">&copy; 2025 Wings of Wonder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Theme Toggle JS -->
+    <script src="theme-toggle.js"></script>
+</body>
+
+</html>
